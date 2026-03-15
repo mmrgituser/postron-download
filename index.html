@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Postron - Download</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f0f0f;
+            color: #f0f0f0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: #1a1a1a;
+            border: 1px solid #2a2a2a;
+            border-radius: 16px;
+            padding: 40px 36px;
+            max-width: 480px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .header img {
+            width: 96px;
+            height: 96px;
+            border-radius: 20px;
+            margin-bottom: 16px;
+        }
+
+        .header h1 {
+            font-size: 26px;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+
+        .version {
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            color: #888;
+            font-size: 13px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+            margin-top: 4px;
+        }
+
+        .divider {
+            border: none;
+            border-top: 1px solid #2a2a2a;
+            margin: 24px 0;
+        }
+
+        .section-label {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #666;
+            margin-bottom: 12px;
+        }
+
+        .download-btn {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            background: #222;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 14px 18px;
+            text-decoration: none;
+            color: #f0f0f0;
+            transition: all 0.2s ease;
+            margin-bottom: 10px;
+        }
+
+        .download-btn:hover {
+            background: #1a1a1a;
+            border-color: #4a9eff;
+        }
+
+        .download-btn:last-child {
+            margin-bottom: 0;
+        }
+
+        .btn-icon {
+            font-size: 28px;
+            width: 36px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        .btn-text .title {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .btn-text .desc {
+            font-size: 11px;
+            color: #888;
+            margin-top: 2px;
+        }
+
+        .help-text {
+            font-size: 12px;
+            color: #555;
+            margin-top: 16px;
+            line-height: 1.6;
+        }
+
+        .help-text strong {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <img src="icon.png" alt="Postron">
+            <h1>Postron</h1>
+            <div class="version">v1.0.0</div>
+            <div class="subtitle">AI Social Media Video Pipeline</div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="section-label">Windows</div>
+        <a class="download-btn" href="https://github.com/mmrgituser/postron-download/releases/download/v1.0.0/Postron.Setup.1.0.0.exe">
+            <div class="btn-icon">&#x1f5a5;</div>
+            <div class="btn-text">
+                <div class="title">Windows Installer</div>
+                <div class="desc">Windows 10/11, 64-bit</div>
+            </div>
+        </a>
+
+        <hr class="divider">
+
+        <div class="section-label">macOS</div>
+        <a class="download-btn" href="https://github.com/mmrgituser/postron-download/releases/download/v1.0.0/Postron-1.0.0-arm64.dmg">
+            <div class="btn-icon">&#x1f34e;</div>
+            <div class="btn-text">
+                <div class="title">Apple Silicon</div>
+                <div class="desc">M1, M2, M3, M4 processors</div>
+            </div>
+        </a>
+        <a class="download-btn" href="https://github.com/mmrgituser/postron-download/releases/download/v1.0.0/Postron-1.0.0.dmg">
+            <div class="btn-icon">&#x1f34e;</div>
+            <div class="btn-text">
+                <div class="title">Intel</div>
+                <div class="desc">Intel-based Mac processors</div>
+            </div>
+        </a>
+
+        <hr class="divider">
+
+        <div class="help-text">
+            <strong>Not sure which Mac version?</strong> Click the Apple menu () &rarr; About This Mac. If you see "Apple M1" or similar, choose Apple Silicon. Otherwise, choose Intel.
+        </div>
+        <div class="help-text" style="margin-top: 10px;">
+            <strong>Windows users:</strong> You may see a SmartScreen warning when running the installer. Click "More info" &rarr; "Run anyway" to proceed.
+        </div>
+    </div>
+</body>
+</html>
